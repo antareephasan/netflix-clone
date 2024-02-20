@@ -26,7 +26,7 @@ const Navbar = () => {
         return () => {
             window.removeEventListener('scroll', handleScroll);
         }
-    }, [])
+    }, []);
 
     const toggleMobileMenu = useCallback(() => {
         setShowMobileMenu((current) => !current);
